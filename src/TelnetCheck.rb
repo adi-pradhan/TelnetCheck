@@ -10,9 +10,9 @@ rescue => error
 end
 
 puts "What format would you like to input the hostnames and ports in ?"
-puts "(1) csv file 			==> host,port"
-puts "(2) type values 		==> host,port"
-puts "(3) use dummy values"
+puts "(1) csv file 				==> host,port"
+puts "(2) type the values 		==> host,port"
+puts "(3) use dummy values		==> 'www.google.com',80"
 puts "\n"
 choice = gets.chomp
 case choice.to_s
